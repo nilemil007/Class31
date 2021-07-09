@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clouds - Class 31 Assignment</title>
+
+  <link rel="stylesheet" href="main.min.css">
+</head>
+<body>
+  <!-- Back -->
+  <div class="back">
+    <a href="index.html">
+      <p>Back to Homepage</p>
+      <i class="bi bi-arrow-left-short"></i>
+    </a>
+  </div>
+
+  <div class="cloud">
+    <canvas id="my-canvas"></canvas>
+  </div>
+
+  <h1>Flying with the clouds</h1>
+
+
+
+
+
+  <script src="assets/js/klouds.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+    klouds.create({
+      selector: '#my-canvas'
+    });
+  </script>
+</body>
+</html>
